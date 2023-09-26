@@ -1,0 +1,92 @@
+:root {
+    --ham: url('./images/list.svg');
+}
+body{
+    background-color: #000000;
+}
+.btn{
+    border-radius: 2rem;
+    padding: 0.3rem 0.8rem;
+    margin-bottom: 0.2rem;
+    font-size: 1rem;
+}
+
+.drop{
+    padding: 0;
+    margin: 0;
+}
+.container-fluid{
+    background-color: rgb(24, 24, 24);
+}
+.navbar{
+    padding-top: 0;
+    margin-top: 0;
+}
+.collapse{
+    /* margin-right: 200px; */
+    
+}
+.smm{
+    /* justify-content: center; */
+    margin-left: 27%;
+}
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+}
+.navbar-light .navbar-toggler{
+    border : 1px solid white;
+    background-color: #414141;
+}
+.hero{
+    color: white!important;
+}
+.row{
+    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card-img-top{
+    height: 300px;
+    object-fit: cover;
+}
+.space{
+    margin-top: 100px;
+}
+.sticky{
+    position: fixed;
+    z-index: 1;
+    margin-top: 60px;
+}
+.card-img{
+    height: 645px;
+    object-fit: cover;
+}
+
+.product-device::before {
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    bottom: 10%;
+    left: 10px;
+    content: "";
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 5px;
+}
+.frow{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding-left: 3.5rem;
+    background-image: url("./images/lights.jpg");
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.just{
+    text-align: justify;
+}
+footer{
+    background-color: rgb(24, 24, 24);
+}
+.text-body-secondary {
+    color: white;
+}
