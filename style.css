@@ -21,6 +21,7 @@ body{
 .navbar{
     padding-top: 0;
     margin-top: 0;
+    padding-bottom: 0;
 }
 .collapse{
     /* margin-right: 200px; */
@@ -41,9 +42,9 @@ body{
     color: white!important;
 }
 .row{
-    margin-bottom: 40px;
+    /* /* margin-bottom: 40px; */
+    align-items: center; 
     justify-content: center;
-    align-items: center;
     
 }
 .card-img-top{
@@ -91,4 +92,19 @@ footer{
 }
 .text-body-secondary {
     color: white;
+}
+
+.offcanvas-header{
+    background-color: black;
+}
+.offcanvas-title{
+    color: white;
+}
+.btn-close{
+    background-color: white;
+}
+
+.cen{
+    margin-bottom: 2rem;
+    width: 300px;
 }

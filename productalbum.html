@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary pb-0">
+    <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary pb-0">
         <div class="sticky container-fluid">
             <a class="navbar-brand" href="#"><img src="./images/logolight.png" alt="" height="50"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -37,14 +37,46 @@
                         <a class="nav-link" href="#"><button type="button" class="btn btn-primary">About Us</button></a>
                     </li>
                 </ul>
-                <!-- <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form> -->
             </div>
         </div>
-    </nav>
+    </nav> -->
 
+    <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./images/logolight.png" alt="Brand-logo" class="img-fluid"
+              style="max-width: 250px;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">SpeedShutter Photography</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./index.html"><button type="button"
+                      class="btn btn-primary">Home</button></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./gallery.html"><button type="button"
+                      class="btn btn-primary">Gallery</button></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./services.html"><button type="button"
+                      class="btn btn-primary">Services</button></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="aboutus.html"><button type="button" class="btn btn-primary">About
+                      Us</button></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </nav>
     <section class="py-5 text-center container">
         <div class="row pt-lg-5">
             <div class="col-lg-6 col-md-8 mx-auto mt-5">
