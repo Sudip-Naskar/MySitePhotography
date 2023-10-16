@@ -1,67 +1,81 @@
 :root {
     --ham: url('./images/list.svg');
 }
-body{
+
+body {
     background-color: #000000;
 }
-.btn{
+
+.btn {
     border-radius: 2rem;
     padding: 0.3rem 0.8rem;
     margin-bottom: 0.2rem;
     font-size: 1rem;
 }
 
-.drop{
+.drop {
     padding: 0;
     margin: 0;
 }
-.container-fluid{
+
+.container-fluid {
     background-color: rgb(24, 24, 24);
 }
-.navbar{
+
+.navbar {
     padding-top: 0;
     margin-top: 0;
     padding-bottom: 0;
 }
-.collapse{
+
+.collapse {
     /* margin-right: 200px; */
-    
+
 }
-.smm{
+
+.smm {
     /* justify-content: center; */
     margin-left: 27%;
 }
-.navbar-toggler-icon{
+
+.navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
 }
-.navbar-light .navbar-toggler{
-    border : 1px solid white;
+
+.navbar-light .navbar-toggler {
+    border: 1px solid white;
     background-color: #414141;
 }
-.hero{
-    color: white!important;
+
+.hero {
+    color: white !important;
 }
-.row{
+
+.row {
     /* /* margin-bottom: 40px; */
-    align-items: center; 
+    align-items: center;
     justify-content: center;
-    
+
 }
-.card-img-top{
+
+.card-img-top {
     height: 300px;
     object-fit: cover;
 }
-.space{
-    margin-top: 100px;
+
+.space {
+    margin-top: 2rem;
 }
-.sticky{
+
+.sticky {
     position: fixed;
     z-index: 1;
     margin-top: 55px;
     padding-top: 1rem;
     padding-bottom: 0.3rem;
 }
-.card-img{
+
+.card-img {
     height: 645px;
     object-fit: cover;
 }
@@ -76,7 +90,8 @@ body{
     background-color: rgba(255, 255, 255, .1);
     border-radius: 5px;
 }
-.frow{
+
+.frow {
     border: 1px solid gray;
     border-radius: 10px;
     padding-left: 3.5rem;
@@ -84,27 +99,59 @@ body{
     background-repeat: no-repeat;
     object-fit: cover;
 }
-.just{
+
+.just {
     text-align: justify;
 }
-footer{
+
+footer {
     background-color: rgb(24, 24, 24);
 }
+
 .text-body-secondary {
     color: white;
 }
 
-.offcanvas-header{
+.offcanvas-header {
     background-color: black;
 }
-.offcanvas-title{
+
+.offcanvas-title {
     color: white;
 }
-.btn-close{
+
+.btn-close {
     background-color: white;
 }
 
-.cen{
+.cen {
     margin-bottom: 2rem;
     width: 300px;
 }
+
+.gal {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+
+    .container,
+    .container-sm {
+        max-width: 301px;
+    }
+}
+@media (max-width: 1199px) {
+
+    .container,
+    .container-sm {
+        max-width: 768;
+    }
+}
+
+/* @media (max-width: 992px){
+.pt-lg-3 {
+    padding-top: 3rem!important;
+}
+} */
