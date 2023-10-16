@@ -1,5 +1,13 @@
+*{
+  width: auto;
+}
+
 .container {
     max-width: 960px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    /*width: 80vw; */
   }
   
   /*
